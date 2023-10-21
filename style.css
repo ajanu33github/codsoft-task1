@@ -1,0 +1,85 @@
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+    height: 100vh;
+    background:url(wave.jpg);
+    background-size: 100% 80%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+    
+}
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    width: fit-content;
+    border: 1px solid #a411df;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.menu a:hover{
+    background: #a411df
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left, .right{
+    flex-basis: 50%;
+   
+}
+.left h1{
+    margin-right: 50px;
+    font-size: 50px;
+    padding-left: 0px;
+}
+.left{
+    margin-right: 50px;
+    max-width: 450px;
+    padding-left: 0px;
+}
+.left p{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn{
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 30px;
+    border-radius: 2px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #a411df
+}
+.right img{
+    margin-left: 150px;
+    width:50%;
+    height: 300px;
+    
+        
+        border-radius: 15px;
+     
+}
